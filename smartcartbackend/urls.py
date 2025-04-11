@@ -30,7 +30,9 @@ urlpatterns = [
     path('api/users/', include('apps.users.urls')),
     
     # despues se activara esa ruta para los productos
-    #path('api/products/', include('apps.products.urls')),
+    path('api/products/', include('apps.products.urls')),
+    path('api/categorias/', include('apps.categorias.urls')),
+    path('api/atributos/', include('apps.atributos.urls')),
 
 ]
 

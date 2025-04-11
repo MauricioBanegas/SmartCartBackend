@@ -1,0 +1,1 @@
+from .atributo_view import AtributoListCreateView, AtributoDetailView, ProductoAtributoViewSet

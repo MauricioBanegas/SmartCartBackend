@@ -1,0 +1,2 @@
+from .atributo_serializer import AtributoSerializer
+from .productoatributo_serializer import ProductoAtributoSerializer

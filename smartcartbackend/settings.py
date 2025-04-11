@@ -50,12 +50,15 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt.token_blacklist',
     'djoser',
     #'corsheaders',
+    'django_extensions',
     
     # Apps del proyecto
-    'apps.users.apps.UsersConfig',
+    'apps.users',
     
     # despues se activara la ruta del producto para poder utilizar
-    #'apps.products.apps.ProductsConfig',
+    'apps.products',
+    'apps.categorias',
+    'apps.atributos',
 ]
 
 AUTH_USER_MODEL = 'users.User'
