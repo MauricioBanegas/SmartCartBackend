@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\roque\OneDrive\Escritorio\si2 1-2025\1er parcial si2 2025 1\proyectos 1er parcial\SmartCartBackend\venv"
+VIRTUAL_ENV="C:\Users\DELL\Documents\GitHub\SmartCartBackend\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
