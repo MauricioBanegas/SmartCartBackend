@@ -1,1 +1,1 @@
-from .notaventa_view import NotaVentaListCreateView, NotaVentaDetailView
+from .notaventa_view import NotaVentaListCreateView, NotaVentaDetailView, DetalleVentaViewSet

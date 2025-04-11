@@ -1,1 +1,2 @@
 from .notaventa_serializer import NotaVentaSerializer
+from .detalleventa_serializer import DetalleVentaSerializer
