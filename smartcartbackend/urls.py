@@ -33,7 +33,8 @@ urlpatterns = [
     path('api/products/', include('apps.products.urls')),
     path('api/categorias/', include('apps.categorias.urls')),
     path('api/atributos/', include('apps.atributos.urls')),
-
+    path('api/notaventas/', include('apps.notaventas.urls')),
+    path('api/facturas/', include('apps.facturas.urls')),
 ]
 
 if settings.DEBUG:
