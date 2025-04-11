@@ -1,0 +1,1 @@
+from .bitacora_view import BitacoraListCreateView, BitacoraDetailView

@@ -1,0 +1,1 @@
+from .bitacora_serializer import BitacoraSerializer

@@ -59,8 +59,12 @@ INSTALLED_APPS = [
     'apps.products',
     'apps.categorias',
     'apps.atributos',
+    'apps.descuentos',
     'apps.notaventas',
     'apps.facturas',
+    'apps.bitacoras',
+    'apps.metodopagos',
+    'apps.notadevoluciones',
 ]
 
 AUTH_USER_MODEL = 'users.User'

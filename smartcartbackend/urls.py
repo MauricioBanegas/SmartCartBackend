@@ -35,6 +35,10 @@ urlpatterns = [
     path('api/atributos/', include('apps.atributos.urls')),
     path('api/notaventas/', include('apps.notaventas.urls')),
     path('api/facturas/', include('apps.facturas.urls')),
+    path('api/bitacoras/', include('apps.bitacoras.urls')),
+    path('api/descuentos/', include('apps.descuentos.urls')),
+    path('api/metodopagos/', include('apps.metodopagos.urls')),
+    path('api/notadevoluciones/', include('apps.notadevoluciones.urls')),
 ]
 
 if settings.DEBUG:
