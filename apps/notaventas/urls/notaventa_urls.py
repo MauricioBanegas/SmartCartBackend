@@ -5,7 +5,7 @@ from rest_framework.routers import DefaultRouter
 from apps.notaventas.views import DetalleVentaViewSet
 
 router = DefaultRouter()
-router.register(r'detalleventas', DetalleVentaViewSet)
+router.register(r'detalle-ventas', DetalleVentaViewSet)
 
 urlpatterns = [
     path('', NotaVentaListCreateView.as_view(), name='notaventa-list-create'),
